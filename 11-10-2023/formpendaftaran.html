@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa</title>
+</head>
+<body>
+    <center><h2>Form Pendaftaran Kampus Zxy</h2></center>
+    <form class="card" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="alamat">Alamat:</label><br>
+        <input type="text" id="alamat" name="alamat"><br><br>
+        <label for="nomor telepon">Nomor Telepon:</label><br>
+        <input type="text" id="nomor telepon" name="nomor telepon"><br><br>
+        <label for="Jenis Kelamin">Jenis Kelamin :</label><br>
+        <input type="radio" id="male" name="gender" value="male"> Pria <br>
+        <input type="radio" id="female" name="gender" value="female"> Wanita <br><br>
+        <label for="Asal Sekolah">Asal Sekolah :</label><br>
+        <select name="Sekolah" size="1">
+            <option value="">Pilih Asal Sekolah</option>
+            <option value="">SMAN 1 Zxy</option>
+            <option value="">SMAN 2 Zxy</option>
+            <option value="">SMAN 3 Zxy</option>
+            <option value="">SMAN 4 Zxy</option>
+            <option value="">SMAN 5 Zxy</option>
+            <option value="">SMAN 6 Zxy</option>
+        </select>
+        <br><br>
+        <label for="alasan">Alasan Masuk Kampus Zxy</label><br>
+        <textarea name="alasan" cols="40" rows="4"></textarea><br><br>
+        <input type="submit" value="Submit">
+
+      </form>
+
+      <style>
+        body {
+            font-family: cursive,Brush Script MT;
+            background-color: #EBE4D1;
+            margin: 0;
+            padding: 0;
+            color: #26577C;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #B4B4B3;
+            border: 1px solid #26577C;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px #888;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            background-color: #E55604;
+            color: #141313;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</body>
+</html>
